@@ -1,0 +1,280 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 64px;
+    padding: 10px 0px;
+}
+
+h3 {
+    font-size: 36px;
+    padding: 30px 0px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 22px;
+    padding: 10px 0px;
+
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.button {
+    padding: 10px 10px;
+    border-radius: 20px;
+
+}
+
+.purple {
+    background-color: #9593e6;
+    color: white;
+}
+
+.blue {
+    color: white;
+    background-color: rgb(26, 117, 255);
+}
+
+.white {
+    color: black;
+    background-color: white;
+}
+
+.white:hover {
+    color: white;
+    background-color: black;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(26, 117, 255);
+    min-height: 30px;
+    font-size: 14px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.navbar img {
+    max-width: 80px;
+    height: auto;
+    padding: 10px;
+
+}
+
+nav > * {
+    color: white;
+    margin: 0px 10px;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    min-height: 600px;
+    margin: auto;
+    padding: 50px 0px;
+
+}
+
+.mainbox, .benefitbox {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    margin-top: 20px;
+
+}
+
+.main-items, .benefit-items {
+    width: 30%;
+    flex-grow: 1;
+    background-color: rgb(186, 227, 255);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+
+}
+
+.main-items h4 {
+    color: rgb(81, 81, 255);
+}
+
+.main-items img {
+    max-width: 35%;
+    height: auto;
+    align-self: flex-end;
+}
+
+.main-items:first-of-type {
+    flex-grow: 2;
+    width: calc(60% + 20px);
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+    padding-bottom: 0;
+}
+
+.main-items > p {
+    text-align: center;
+}
+
+.main-items > i {
+    color: rgb(81, 81, 255);
+}
+
+.main-items-info {
+    align-self: flex-start;
+}
+
+.main-items-info > *{
+    margin-bottom: 20px;
+    width: 400px;
+}
+
+.planning, .benefit {
+    background-color: #9593e6;
+}
+
+.planningbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    gap: 10px;
+    min-height: 700px;
+
+}
+
+.planning-items {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #9593e6;
+    color: white;
+    border-radius: 20px;
+
+
+}
+
+.planning-items:last-of-type{
+    align-self: flex-end;
+    background-color: white;
+    color: black;
+    padding: 15px;
+    width: 30%;
+}
+
+.planning-items img {
+    max-width: 60%;
+    height: auto;
+}
+
+.planning-items:last-of-type p {
+    text-align: center;
+}
+
+.reviewbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.review-items {
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+
+    background-color: #9593e6;
+    border-radius: 30px;
+    width: 100%;
+    min-height: 100px;
+}
+
+.circle-img img {
+    width: 150%;
+    translate: -16% 0%;
+}
+
+.circle-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.review-info {
+    width: 80%;
+}
+
+.benefitbox h4,h2 {
+    color: #9593e6;
+}
+
+.benefitbox .benefit-items {
+    align-items: flex-start;
+    background-color: white;
+    padding-right: 30px;
+}
+
+.aboutbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.about-items:first-of-type {
+    width: 60%;
+    justify-content: space-evenly;
+    align-self: stretch;
+}
+
+.about-items {
+    width: 20%;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+}
+
+.about-items h4{
+    color: #9593e6;
+}
